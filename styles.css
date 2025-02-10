@@ -1,8 +1,18 @@
-body{
-    text-align: center;
-    margin-top:200px;
+h1{
+    margin:0px;
 }
 #subheading{
     color:rgb(247, 95, 95);
     font-weight: bold;
+}
+#content{
+    color:cadetblue;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-flow:column wrap;
 }
